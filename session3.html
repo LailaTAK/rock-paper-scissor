@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="session3.css">
+</head>
+<body>
+    
+<h1>Rock Paper Scisor</h1>
+<button class="button" onclick="playGame('paper')"><img  class="images"  src="paper-emoji.png"></button>
+<button class="button"  onclick="playGame('rock')" ><img  class="images" src="rock-emoji.png"></button>
+<button class="button" onclick="playGame('scissor')"><img class="images" src="scissor-emoji.png"></button>
+<p class="status"></p>
+<div class="play">
+<p>You</p>
+<div class="moves">
+<img class="im" src="rock-emoji.png">
+<img class="im" src="paper-emoji.png"></div>
+<p>computer</p>
+</div>
+<div class="result"><p>Wins: 0, Losses: 0, Ties: 0</p></div>
+<button class="reset" onclick="resetCount()">reset count</button>
+<button class="autoplay" onclick="autoPlay()">Auto play</button>
+
+
+<script src="session3.js"></script>
+</body>
+</html>
